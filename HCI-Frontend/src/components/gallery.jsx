@@ -1,4 +1,5 @@
 import { Image } from "./image";
+import { Link } from 'react-router-dom'; // Import Link component from React Router
 import React from "react";
 
 export const Gallery = (props) => {
@@ -11,7 +12,7 @@ export const Gallery = (props) => {
           Experience our AI-powered skin cancer detection in action with a live demo. Upload your skin images and witness firsthand how our advanced technology accurately analyzes and identifies potential concerns. Take control of your skin health today with just a click of a button.
           </p>
         </div>
-        <a className="btn btn-demo"> Live Demo</a>{" "}
+        <Link to="/second-page" className="btn btn-demo"> Live Demo</Link>{" "}
       </div>
     </div>
   );

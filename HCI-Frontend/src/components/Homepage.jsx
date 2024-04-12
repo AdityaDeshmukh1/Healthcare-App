@@ -22,7 +22,7 @@ const Homepage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="page">
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
